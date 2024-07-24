@@ -13,5 +13,6 @@ Required package:
 
 ## Datasets
 
-## HisToSGE pipeline
+
+## Run MACD and other Baselines models
 - Run `main.py`
