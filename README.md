@@ -15,4 +15,4 @@ Required package:
 
 
 ## Run MACD and other Baselines models
-- Run `main.py`
+After configuring the environment, download dataset4 from the Simulated_datasets in the data repository and place it into the Simulated_datasets folder. Then, Run `main.py`to start the process.
