@@ -1,3 +1,5 @@
 #Simulated Datasets
+
+
 We have uploaded and made public the real datasets used in this study, which can be downloaded from https://zenodo.org/records/12804822. Additionally, you can find these datasets on the following websites：
  The specifics of the 32 simulated datasets are described in detail in the text. Each dataset includes spatial transcriptomics data, single-cell sequencing data, and the cell type proportion labels corresponding to the spatial transcriptomics data.
