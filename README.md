@@ -6,10 +6,11 @@ First, we generate simulated data using scRNA-seq and spatial transcriptomics da
 
 
 ## System environment
-Required package:
-- PyTorch >= 2.2.0
-- scanpy >= 1.8
-- python >=3.10
+To install `MACD`, you need to install [PyTorch](https://pytorch.org) with GPU support first. If you don't need GPU acceleration, you can just skip the installation for `cudnn` and `cudatoolkit`.
+* Create conda environment for `MACD`:
+```
+conda env create -f environment.yml
+```
 
 ## Datasets
 The publicly available  datasets were used in this study. You can download them from https://zenodo.org/records/12804822 or find them on the following websites：
