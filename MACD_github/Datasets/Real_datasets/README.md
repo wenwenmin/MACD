@@ -1,1 +1,4 @@
-
+Datasets
+We have uploaded and made public the real datasets used in this study, which can be downloaded from https://zenodo.org/records/12804822. Additionally, you can find these datasets on the following websites：
+ The two real datasets from different human tissues, one of which is murine lymph nodes tissue, and the other is human developing heart tissue . The spatial transcriptomics data (10x Visium) and single-cell sequencing data (10x Chromium) of murine lymph nodes were collected after 48-hour stimulation by MS compared to a PBS control. The spatial transcriptomics data includes 1,092 spots, and the single-cell sequencing data consists of 14,989 cells, with 15 different cell types identified.
+The heart  originates from the mesoderm and develops into the cardiac tube, which starts to beat around 21 days after conception. We selected the spatial transcriptomics (ST) and single-cell sequencing (10x Chromium) data from Asp's study, which examined the development of the human heart in early embryos. The ST data includes 210 spots, and the single-cell sequencing data comprises 3,777 cells, with 15 different cell types identified.
