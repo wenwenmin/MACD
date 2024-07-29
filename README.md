@@ -23,6 +23,6 @@ After configuring the environment, download dataset4 from the Simulated_datasets
 Lin Huang†, Xiaofei Liu† and Wenwen Min†*. Masked adversarial neural network for cell type deconvolution in spatial transcriptomics (2024)
 
 ## Contact
-mangoeshl12@gmail.com
+huanglin212@aliyun.com
 
 minwenwen@ynu.edu.cn
