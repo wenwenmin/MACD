@@ -234,8 +234,10 @@ class MDCD(nn.Module):
                                           {'params': self.decoder_da.parameters()},], lr=self.learning_rate)
         self.optim1 = torch.optim.Adam([{'params': self.encoder_da.parameters()},
                                           {'params': self.predictor_da.parameters()},], lr=self.learning_rate)
-        self.optim_discriminator = torch.optim.Adam(self.Discriminator.parameters(), lr=0.005)  # 判别器的学习率
-        self.optim_classifier = torch.optim.Adam(self.Classifier.parameters(), lr=0.01)  # 分类器的学习率
+        self.optim_discriminator = torch.optim.Adam([{'params': self.encoder_da.parameters()},
+                                          {'params': self.Discriminator.parameters()},] lr=0.005)  # 判别器的学习率
+        self.optim_classifier = torch.optim.Adam([{'params': self.encoder_da.parameters()},
+                                          {'params': self.Classifier.parameters()},], lr=0.01)  # 分类器的学习率
         criterion_da = nn.MSELoss().cuda()
         metric_logger = defaultdict(list)
         epsilon=0.01
