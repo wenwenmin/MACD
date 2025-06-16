@@ -20,7 +20,7 @@ The publicly available  datasets were used in this study. You can download them 
 After configuring the environment, download dataset4 from the Simulated_datasets in the data repository and place it into the Simulated_datasets folder. Then, Run `main.py`to start the process.If you want to run other data, simply modify the file path.
 
 ## Cite
-Lin Huang†, Xiaofei Liu† and Wenwen Min†*. Masked adversarial neural network for cell type deconvolution in spatial transcriptomics (2024)
+[Lin Huang†, Xiaofei Liu† and Wenwen Min†*. Masked adversarial neural network for cell type deconvolution in spatial transcriptomics (BIBM 2024)](https://ieeexplore.ieee.org/document/10821782)
 
 ## Contact
 huanglin212@aliyun.com
